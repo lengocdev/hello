@@ -10,6 +10,8 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
