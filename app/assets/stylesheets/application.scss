@@ -34,17 +34,15 @@ body {
 
 .menu{
   height: 130px;
-
-  .navbar{
-    margin: 0;
-    padding: 0;
     .navbar-brand{
+      padding-top: 30px;
+      padding-left: 0px;
       li{
         color: #EA3F8E;
       }
     }
     .justify-content-end{
-      padding-top: 40px;
+      padding-top: 44px;
       li{
         a:hover{
           color: #EA3F8E;
@@ -52,7 +50,6 @@ body {
         }
       }
     }
-  }
 }
 
 .main-carousel{
