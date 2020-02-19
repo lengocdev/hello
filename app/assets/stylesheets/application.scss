@@ -14,33 +14,55 @@
 
 @import "bootstrap";
 
-.top{
-  background-color: darkslateblue;
-  height: 330px;
-
-  .menu{
-    color: white;
-    padding-top: 15px;
-  }
-  .title{
-    text-align: center;
-    font-size: 40px;
+body {
+  ul, li {
     padding: 0;
-    margin: 45px 0 0;
+    margin: 0;
+    list-style: none;
+  }
+}
+.tool {
+  height: 35px;
+  background-color: #EEEDEE;
+  color: #7A7A7B;
+  //font-size: 15px;
+  padding-top: 5px;
+  a{
+    color: #7A7A7B;
+  }
+}
 
-  }
-  .sub-title{
-    text-align: center;
-    font-size: 20px;
+.menu{
+  height: 130px;
+
+  .navbar{
+    margin: 0;
     padding: 0;
-  }
-  .input-group{
-    padding-top: 20px;
-    padding-left: 320px;
-  }
-  .nav-right{
-    li{
-      margin-left: 16px;
+    .navbar-brand{
+      li{
+        color: #EA3F8E;
+      }
+      li:hover{
+
+      }
+    }
+    .justify-content-end{
+      padding-top: 40px;
     }
   }
 }
+
+.main-carousel{
+  .carousel{
+    .carousel-inner{
+      img{
+        width:100%;
+        height: 587px;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+
+
