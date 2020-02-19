@@ -9,8 +9,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /*@media  {*/
+      /*  */
+      /*}*/
+    </style>
   </head>
   <body>
+<!--  Tool Top-->
   <div class="container-fluid tool">
     <div class="container">
       <div class="row">
@@ -19,17 +25,20 @@
         <div class="col-md-3">
           <small>
             <a href="">Login</a>
-            &nbsp; | &nbsp;  Contact: &nbsp;
+            &nbsp; | &nbsp;  Support: &nbsp;
             <span style="color: #DE3341; font-weight: bold">0364782832</span>
           </small>
         </div>
       </div>
     </div>
   </div>
+<!--End Tool Top-->
+
+<!--Menu-->
   <div class="container menu">
     <nav class="navbar">
       <ul class="navbar-brand">
-        <li ><h3><strong>HOMEWORK</strong></h3></li>
+        <li><h3><strong>HOMEWORK</strong></h3></li>
       </ul>
       <ul class="nav justify-content-end">
         <li class="nav-item">
@@ -45,9 +54,12 @@
           <a class="nav-link" href="#"><strong>INFO</strong></a>
         </li>
       </ul>
-          </nav>    
+    </nav>    
   </div>
-  <div class="container-fluid main-carousel">
+<!--End Menu-->
+
+<!--Main-carousel-->
+  <div class="main-carousel">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -58,22 +70,25 @@
         <div class="item active">
           <%= image_tag('carousel/banner.jpg', alt: 'pic1' ) %>
           <div class="carousel-caption">
-            <h3>Los Angeles</h3>
-            <p>LA is always so much fun!</p>
+            <h3>Think simply</h3>
+            <p>Beautiful is better than ugly.
+              Explicit is better than implicit.</p>
           </div>
         </div>
         <div class="item">
-          <%= image_tag('carousel/banner3.jpg', alt: 'pic2') %>
+          <%= image_tag('carousel/banner5.jpg', alt: 'pic2') %>
           <div class="carousel-caption">
-            <h3>Chicago</h3>
-            <p>Thank you, Chicago!</p>
+            <h3>Find slution</h3>
+            <p>Simple is better than complex.
+              Complex is better than complicated.</p>
           </div>
         </div>
         <div class="item">
           <%= image_tag('carousel/banner4.jpg', alt: 'pic3') %>
           <div class="carousel-caption">
-            <h3>New York</h3>
-            <p>We love the Big Apple!</p>
+            <h3>Try and Try</h3>
+            <p>Errors should never pass silently.
+              Unless explicitly silenced.!</p>
           </div>
         </div>
       </div>
@@ -87,6 +102,7 @@
       </a>
     </div>
   </div>
+<!--End Main-carousel-->
   <%= yield %>
   </body>
 </html>

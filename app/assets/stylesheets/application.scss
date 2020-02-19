@@ -42,12 +42,15 @@ body {
       li{
         color: #EA3F8E;
       }
-      li:hover{
-
-      }
     }
     .justify-content-end{
       padding-top: 40px;
+      li{
+        a:hover{
+          color: #EA3F8E;
+          background-color: white;
+        }
+      }
     }
   }
 }
@@ -59,6 +62,14 @@ body {
         width:100%;
         height: 587px;
         object-fit: cover;
+      }
+      .carousel-caption{
+        h3{
+          font-size: 50px;
+        }
+        p{
+          font-size: 25px;
+        }
       }
     }
   }
